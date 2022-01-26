@@ -1,0 +1,12 @@
+# Project exclude paths
+
+# Gradle files
+/.gradle/
+
+# Intellij files
+.idea/
+
+# Build folder
+/build/
+
+
