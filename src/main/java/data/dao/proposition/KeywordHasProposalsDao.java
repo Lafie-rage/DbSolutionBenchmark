@@ -70,7 +70,7 @@ public class KeywordHasProposalsDao implements Dao {
         ).limit(1).cursor();
         while(cursor.hasNext()) {
             Document keyword = cursor.next();
-            List<Document> proposals = (List<Document>) keyword.get("proposal");
+            List<Document> proposals = (List<Document>) keyword.get("proposals");
             for(Document proposal : proposals) {
                 int proposalId = proposal.getInteger("id");
                 if(proposalId > lastId) {

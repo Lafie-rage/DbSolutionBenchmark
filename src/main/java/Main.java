@@ -19,7 +19,7 @@ public class Main {
             System.out.println(entry.getKey() + " in " + entry.getValue() + " ms.");
         }
 
-        /* System.out.println("Model : keyword contains propositions");
+         System.out.println("Model : keyword contains propositions");
         Map<String, Long> keyWordSelectTime = BenchmarkKeywordHasPropositions.benchmarkSelection();
         Map<String, Long> keyWordInsertTime = BenchmarkKeywordHasPropositions.benchmarkInsertion();
 
@@ -29,8 +29,6 @@ public class Main {
 
         for(Map.Entry<String, Long> entry: keyWordInsertTime.entrySet()) {
             System.out.println(entry.getKey() + " in " + entry.getValue() + " ms.");
-        }*/
-
-//        new KeywordHasProposalsDao().getLastProposalId();
+        }
     }
 }
